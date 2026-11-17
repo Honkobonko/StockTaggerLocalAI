@@ -1,24 +1,21 @@
-Create accurate, searchable stock photography metadata
-in English based on the image description.
+Create accurate, searchable stock photography metadata for Shutterstock in English based on the image description.
 
 TITLE
-- Write a clear, specific, natural stock photo title.
-- Use at least 5 words.
-- Avoid keyword lists, repetition, and unnecessary filler.
-- Do not exceed 2048 characters.
+- Write a clear, specific, natural, descriptive stock photo title in English.
+- Use at least 5 words, ideally between 60 and 120 characters, and strictly do not exceed 200 characters.
+- Place the most important subject terms near the beginning for SEO.
+- Avoid keyword lists, repetition, promotional language, and unnecessary filler.
 
 KEYWORDS
-- Generate 20 to 30 distinct, relevant keywords.
-- Use individual words or concise phrases where appropriate.
-- Put the most important and specific keywords first.
-- Prioritize the main subject, objects, actions, setting,
-  composition, visual characteristics, and relevant concepts.
-- Avoid synonyms that add little meaning, repeated ideas,
-  redundant variations, and generic filler.
+- Generate 25 to 35 distinct, highly relevant keywords in English.
+- Use single words only. Only use multi-word phrases for established compound terms (e.g., "real estate", "social media", "New York").
+- Match grammatical number to the image: use singular nouns for a single subject (e.g., "woman", "car") and plural nouns for multiple subjects (e.g., "women", "cars"). Never include both singular and plural forms of the same word.
+- Prioritize the main subject, objects, actions, setting, composition (e.g., "copy space", "aerial", "close-up"), lighting, and relevant concepts.
+- Strictly avoid trademarked names, brand names, or genericized trademarks (e.g., do not use "iPad", "Jeep", "Velcro", "Lego").
+- Avoid synonyms that add little meaning, repeated ideas, redundant variations, and generic filler.
 
 SHUTTERSTOCK CATEGORIES
-Choose the best primary category and, if useful, a different
-secondary category from this exact list:
+Choose the best primary category and, if useful, a different secondary category from this exact list:
 - Abstract
 - Animals/Wildlife
 - Arts
@@ -49,22 +46,19 @@ secondary category from this exact list:
 CATEGORY RULES
 - The primary category is required.
 - Choose the category that best represents the main subject.
-- Use a different secondary category only when useful.
+- Use a different secondary category only when it adds clear, distinct value.
 - Otherwise, set secondaryCategory to null.
 - Select only categories from the supplied list.
 
 ACCURACY
-- Use only information supported by the image description
-  or reliable user-provided additional information.
-- Additional information may clarify context but does not
-  override clearly visible evidence.
-- Do not invent names, locations, brands, professions,
-  events, or other details.
+- Use only information supported by the image description or reliable user-provided additional information.
+- Additional information may clarify context but does not override clearly visible evidence.
+- Do not invent names, locations, brands, professions, events, or other details.
 
 Return only the metadata matching the required JSON schema.
 
 Image description:
 {{IMAGE_DESCRIPTION}}
 
-Additional information provided by the user:
+Additional information provided by the user (MANDATORY CONTEXT — give maximum weight to these facts, incorporating them prominently into the title and first keywords):
 {{ADDITIONAL_INFORMATION}}

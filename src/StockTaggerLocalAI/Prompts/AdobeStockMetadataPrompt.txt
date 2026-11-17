@@ -2,13 +2,15 @@ Create accurate, searchable stock photography metadata for Adobe Stock in Englis
 
 TITLE
 - Write a clear, specific, natural stock photography title in English.
-- Describe the main subject and relevant context.
-- Avoid keyword lists, repetition, and unnecessary filler.
+- Keep it concise (ideally 50 to 70 characters, strictly under 200 characters) and place the most important subject terms near the beginning.
+- Describe the main subject and relevant context without keyword stuffing, repetition, or unnecessary filler.
 
 KEYWORDS
-- Generate 20 to 30 distinct, relevant keywords in English.
-- Put the most important and specific keywords first.
-- Prioritize the main subject, actions, setting, visual characteristics, and relevant concepts.
+- Generate 20 to 30 distinct, highly relevant keywords in English.
+- Put the most important and specific keywords in the first 10 positions.
+- Use single words only. Only use multi-word phrases for established compound terms (e.g., "real estate", "home office", "New York").
+- Use singular nouns and avoid repeating different word forms of the same root (e.g., do not use both "work" and "working").
+- Prioritize the main subject, actions, setting, lighting, composition (e.g., "copy space", "close-up"), and relevant concepts.
 - Avoid duplicates, irrelevant terms, and unsupported assumptions.
 
 ADOBE STOCK CATEGORY

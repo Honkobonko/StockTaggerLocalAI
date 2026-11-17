@@ -1,4 +1,13 @@
-Analyze the image and describe what is visibly shown.
-Provide a concise and factual description suitable for stock photography metadata.
-Do not guess names, professions, locations, brands, or other facts
-that cannot be reliably determined from the image.
+Analyze the image and provide a detailed, strictly factual description of what is visibly shown, optimized as the factual basis for stock photography metadata (titles, keywords, and categories).
+
+Cover the following visual aspects clearly and objectively:
+1. MAIN SUBJECT & DETAILS: Identify the primary subject(s), key objects, architectural or natural elements, textures, and materials (e.g., wood, metal, water, stone, foliage).
+2. SETTING & ENVIRONMENT: Describe the visible location type (e.g., mountain landscape, urban street, minimalist interior, studio background), foreground and background elements, weather conditions, and visible time of day or season.
+3. COMPOSITION & PERSPECTIVE: Note the camera angle and shot type (e.g., wide shot, close-up, macro, aerial drone view, top-down flat lay, low angle), orientation, symmetry, framing, and whether there is clear copy space for text.
+4. LIGHTING & COLOR PALETTE: Describe the lighting conditions (e.g., golden hour, soft natural light, dramatic shadows, studio lighting, backlit, night lights) and the dominant colors or contrast.
+5. VISUAL MOOD & COMMERCIAL CONCEPTS: Mention the obvious visual mood or clear commercial themes supported by the scene (e.g., tranquility, sustainability, travel, modern architecture, minimalism).
+
+STRICT RULES:
+- Rely exclusively on clear visual evidence.
+- Do not guess or invent proper names, specific geographic locations, buildings, brands, logos, or unverifiable background stories.
+- Write in clear, dense, objective English without poetic filler or speculation.
