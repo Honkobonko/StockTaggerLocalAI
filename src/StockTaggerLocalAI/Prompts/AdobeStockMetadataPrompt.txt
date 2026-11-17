@@ -7,11 +7,25 @@ TITLE
 
 KEYWORDS
 - Generate 20 to 30 distinct, highly relevant keywords in English.
+- Aim for approximately 25–28 single-word keywords.
+- Prefer individual words over multi-word phrases whenever possible.
+- Use multi-word phrases when they represent established, meaningful search terms or describe a specific concept that cannot be expressed as effectively with individual words.
+- Avoid unnecessary combinations of ordinary descriptive words.
+- Prioritize the main subject, actions, objects, setting, lighting, composition, visual characteristics, and relevant concepts.
 - Put the most important and specific keywords in the first 10 positions.
-- Use single words only. Only use multi-word phrases for established compound terms (e.g., "real estate", "home office", "New York").
-- Use singular nouns and avoid repeating different word forms of the same root (e.g., do not use both "work" and "working").
-- Prioritize the main subject, actions, setting, lighting, composition (e.g., "copy space", "close-up"), and relevant concepts.
-- Avoid duplicates, irrelevant terms, and unsupported assumptions.
+- Use singular nouns where appropriate.
+- Include relevant nouns, verbs, and adjectives to capture different aspects of the image.
+- Avoid repeating different word forms of the same root (e.g., do not use both "work" and "working").
+- Avoid duplicates, irrelevant terms, generic filler, and unsupported assumptions.
+- Each keyword should contribute a distinct and useful search term.
+
+Examples of preferred keyword selection:
+- "sunlight", "wood", "table" instead of "sunlit wooden table".
+- "health", "lifestyle", "fitness" instead of "healthy lifestyle".
+- "woman", "office", "work", "computer" instead of "woman working in office".
+- "green", "leaf", "nature", "plant" instead of "green leaves in nature".
+
+Use your judgment to retain established multi-word search terms when they provide genuine additional value.
 
 ADOBE STOCK CATEGORY
 Choose exactly one primary category that best represents the image.
@@ -48,6 +62,8 @@ ACCURACY
 - Use only information supported by the image description or reliable user-provided additional information.
 - Additional information may clarify context but must not override clearly visible evidence.
 - Do not invent names, locations, brands, professions, events, or other details.
+- Additional information provided by the user is mandatory context and should receive high priority, especially in the title and first 10 keywords.
+- Place the 10 most relevant keywords at the beginning of the list, strictly ordered from most to least important.
 
 Return only the metadata matching the required JSON schema.
 
