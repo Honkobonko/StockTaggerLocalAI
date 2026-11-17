@@ -1,4 +1,4 @@
-Analyze the image and provide a detailed, strictly factual description of what is visibly shown, optimized as the factual basis for stock photography metadata (titles, keywords, and categories).
+Analyze the image and provide a detailed, strictly factual description of what is visibly shown.
 
 Cover the following visual aspects clearly and objectively:
 1. MAIN SUBJECT & DETAILS: Identify the primary subject(s), key objects, architectural or natural elements, textures, and materials (e.g., wood, metal, water, stone, foliage).
@@ -11,3 +11,4 @@ STRICT RULES:
 - Rely exclusively on clear visual evidence.
 - Do not guess or invent proper names, specific geographic locations, buildings, brands, logos, or unverifiable background stories.
 - Write in clear, dense, objective English without poetic filler or speculation.
+- Do NOT generate a title, keyword lists, or categories—provide ONLY the visual description.
