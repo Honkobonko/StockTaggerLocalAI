@@ -54,5 +54,5 @@ Return only the metadata matching the required JSON schema.
 Image description:
 {{IMAGE_DESCRIPTION}}
 
-Additional information provided by the user:
+Additional information provided by the user (MANDATORY CONTEXT — give maximum weight to these facts, incorporating them prominently into the title and first keywords):
 {{ADDITIONAL_INFORMATION}}
